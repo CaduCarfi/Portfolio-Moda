@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*
+    #809671 - mat
+    #E5E0D8 - amolnd
+    #B3B792 - Pistach
+    #D2AB80 - Chai
+    #725C3A - carob
+    #E5D2B8 - vanilla
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: #E5D2B8;
+}
+
+header {
+    background-color: #ac8b69;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav > a:hover {
+    background-color: #57462c;
+    color: #ac8b69;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+
+main > article {
+    padding: 20px;
+    margin: 10px;
+}
+
+main > a:hover {
+    
+}
+
+img {
+    display: inline-block;
+    margin: 10px;
+    
+}
+
