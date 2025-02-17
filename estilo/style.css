@@ -32,6 +32,7 @@ header > h1 {
     text-align: center;
     font-size: 3em;
     padding: 10px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
 }
 
 header > nav {
@@ -70,29 +71,51 @@ main > a:hover {
     width: 200px;
 }
 
+main > img {
+    width: 500px;
+    box-shadow: 20px 20px 6px rgba(0, 0, 0, 0.603);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+main > article > p {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .img {
     margin: 10px;
     width: 300px;
     justify-content: center;
     text-align: center;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.603);
 }
 
 article {
     justify-items: center;
     text-align: center;
 }
+
 footer {
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 10px;
-    border: 10px;
+    bottom: 0;
 }
 
 
 footer > p {
     font-size: 25px;
     padding-bottom: 15px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
 }
 
 footer > a {
